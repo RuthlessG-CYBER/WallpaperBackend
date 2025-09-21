@@ -1,4 +1,4 @@
-export const data = [
+const data = [
     {
         id: 1,
         url: "https://i.pinimg.com/736x/e5/70/03/e570030dc8283cd63e81dcb1b4bf3811.jpg",
@@ -30,3 +30,5 @@ export const data = [
         description: "Logo"
     }
 ]
+
+module.exports = data

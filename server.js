@@ -1,4 +1,5 @@
 const express = require("express");
+const data = require("./data");
 
 app = express();
 
@@ -16,10 +17,15 @@ app.get("/images", (req, res) => {
 
 app.get("/image/:id", (req, res) => {
     const id = req.params.id;
-    const image = data.find(image => image.id == id);
-    res.send(image);
+    
+    try {
+        const image = data.find(image => image.id == id);
+        res.send(image);
+    } catch (error) {
+        console.log(error);
+    }
 });
 
 app.listen(3000, () => {
-    console.log("Example app listening on port 3000! Go to http://localhost:3000");
+    console.log("Wallpaper app listening on port 3000! Go to http://localhost:3000");
 });
