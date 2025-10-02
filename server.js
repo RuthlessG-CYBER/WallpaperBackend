@@ -26,6 +26,6 @@ app.get("/image/:id", (req, res) => {
     }
 });
 
-app.listen(3000, () => {
-    console.log("Wallpaper app listening on port 3000! Go to http://localhost:3000");
+app.listen(4040, () => {
+    console.log("Wallpaper app listening on port 3000! Go to http://localhost:4040");
 });
