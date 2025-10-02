@@ -28,6 +28,26 @@ const data = [
         id: 6,
         url: "https://i.pinimg.com/736x/2c/cb/39/2ccb39ce6b28e402f0615648e882dad9.jpg",
         description: "4k Car"
+    },
+    {
+        id: 7,
+        url: "https://i.pinimg.com/736x/ad/75/19/ad75190975799a05b10b4f87f4441038.jpg",
+        description: "4k Car"
+    },
+    {
+        id: 8,
+        url: "https://i.pinimg.com/736x/d7/3b/79/d73b79ef4d3b391b322f429da8889c66.jpg",
+        description: "Trust No One"
+    },
+    {
+        id: 9,
+        url: "https://i.pinimg.com/736x/a8/ae/3c/a8ae3c1f20753457d0d0cdf5e9145fe3.jpg",
+        description: "Never Give Up"
+    },
+    {
+        id: 10,
+        url: "https://i.pinimg.com/736x/f9/d7/7c/f9d77c228732dc3215be64d32b2ba466.jpg",
+        description: "Motivation"
     }
 ]
 
